@@ -238,6 +238,8 @@ button {
 
 .header_top_main {
     display: flex;
+    align-items: center; /* Centra verticalmente todos los elementos */
+    justify-content: space-between; /* Espacia los elementos horizontalmente */
 }
 
 .call_text {
@@ -301,7 +303,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.webp);
     height: auto;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -566,6 +568,13 @@ button {
     margin: 0 auto;
     z-index: -1;
 }
+
+@media screen and (max-width: 768px) {
+    .contact_img {
+        display: none;
+    }
+}
+
 
 @keyframes fadeEffect {
     0% {
@@ -905,6 +914,18 @@ i.fa.fa-link {
     background-color: #fda417;
     color: #fff;
 }
+
+.nav-image {
+    background: url('../images/favicon.png') no-repeat center center;
+    background-size: contain; /* O usa 'cover' si quieres que la imagen cubra todo el div */
+    width: 80px;  /* Ajusta el ancho */
+    height: 40px;  /* Ajusta la altura */
+    display: inline-block; /* Asegura que el div se muestre como un bloque en línea */
+}
+
+
+
+
 
 
 /* projects section end */
