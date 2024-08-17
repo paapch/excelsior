@@ -241,7 +241,6 @@ button {
     align-items: center; /* Centra verticalmente todos los elementos */
     justify-content: space-between; /* Espacia los elementos horizontalmente */
 }
-
 .call_text {
     width: 100%;
     float: left;
@@ -833,7 +832,7 @@ button {
 	-webkit-transform: translate(0,-50%);
 	-moz-transform: translate(0,-50%);
 }
-.wa__btn_w_img .wa__cs_img_wrap{
+.wa__btn_w_img .wa__cs_img_wrap{    
     width: 79px;
     height: 79px;
     border-radius: 50%;
@@ -841,7 +840,7 @@ button {
     -moz-border-radius: 50%;
     border: 3px solid #ffffff;
     position: relative;
-    overflow: hidden;
+    overflow: hidden;    
 }
 .wa__btn_w_img .wa__cs_img img{
     max-width: 100%;
@@ -980,7 +979,7 @@ button {
 .wa__popup_chat_box .wa__popup_heading{
     position: relative;
     padding: 15px 43px 17px 74px;
-    color: #d9ebc6;
+    color: #fff;
     background: #fda51a;
 }
 .wa__popup_chat_box .wa__popup_heading_sm{
@@ -1021,7 +1020,7 @@ button {
 
 .wa__popup_chat_box .wa__popup_heading .wa__popup_intro a{
     display: inline-block;
-    color: #ffffff;
+    color: #eee;
     text-decoration: none;
 }
 .wa__popup_chat_box .wa__popup_heading .wa__popup_intro a:hover,
@@ -1074,7 +1073,7 @@ button {
 }
 .wa__popup_chat_box .wa__stt:after{
     content: '';
-    background: url('../img/whatsapp_logo_green.svg') 0 0 no-repeat;
+    background: url('../img/whatsapp_lo go_green.svg') 0 0 no-repeat;
     position: absolute;
     right: 14px;
     top: 26px;
@@ -1084,9 +1083,7 @@ button {
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
 }
-.wa__popup_chat_box .wa__stt.wa__stt_offline:after{
-    background-image: url('../img/whatsapp_logo_gray_sm.svg');
-}
+
 .wa__popup_chat_box .wa__stt.wa__stt_online{
     transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
